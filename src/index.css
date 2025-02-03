@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  /* Primary */
+
+  --color-DarkViolet: #2d2640;
+  --color-GrayishBlue: #95a9c6;
+
+  /* Neutral */
+
+  --color-VeryDarkViolet: #2b272f;
+  --color-DarkGrayishViolet: #837d87;
+  --color-VeryLightGray: #fafafa;
+
+  /* fonts */
+
+  --font-display: "DM Serif Display", serif;
+  --font-body: "Karla", serif;
+}
