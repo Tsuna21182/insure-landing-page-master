@@ -14,6 +14,6 @@
 
   /* fonts */
 
-  --font-display: "DM Serif Display", serif;
-  --font-body: "Karla", serif;
+  --font-display: "DM Serif Display", serif; /*headings*/
+  --font-body: "Karla", serif; /*body*/
 }
