@@ -3,9 +3,12 @@ import Btn from "./Btn";
 function Hero() {
   return (
     <section>
-      <div>
-        <img src="/images/image-intro-mobile.jpg" alt="imagen hero" />
-      </div>
+      <img
+        src="/images/image-intro-mobile.jpg"
+        alt="imagen hero"
+        className="w-full"
+      />
+
       <div className="bg-DarkViolet p-8 text-VeryLightGray text-center bg-[url(/images/bg-pattern-intro-left-mobile.svg)] bg-no-repeat bg-">
         <h2 className="font-display text-3xl">Humanizing your insurance.</h2>
         <p className="font-body my-5">
