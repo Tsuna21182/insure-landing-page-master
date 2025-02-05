@@ -14,7 +14,7 @@ function Header() {
         {isOpen ? (
           <div>
             <img src="/images/icon-close.svg" alt="icono menu" />
-            <div className="absolute top-18 left-0 w-full bg-VeryDarkViolet p-5 bg-[url(/images/bg-pattern-mobile-nav.svg)] bg-no-repeat bg-left-bottom h-[560px]">
+            <div className="absolute top-18 left-0 w-full bg-VeryDarkViolet p-5 bg-[url(/images/bg-pattern-mobile-nav.svg)] bg-no-repeat bg-right-bottom bg-[100%_auto] h-[560px]">
               <NavBar />
               <Btn name={"view plans"} />
             </div>

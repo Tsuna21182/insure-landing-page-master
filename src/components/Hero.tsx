@@ -9,7 +9,7 @@ function Hero() {
         className="w-full"
       />
 
-      <div className="bg-DarkViolet p-8 text-VeryLightGray text-center bg-[url(/images/bg-pattern-intro-left-mobile.svg)] bg-no-repeat bg-">
+      <div className="bg-DarkViolet p-8 text-VeryLightGray text-center bg-[url(/images/bg-pattern-intro-left-mobile.svg)] bg-no-repeat">
         <h2 className="font-display text-3xl">Humanizing your insurance.</h2>
         <p className="font-body my-5">
           Get your life insurance coverage easier and faster. We blend our
