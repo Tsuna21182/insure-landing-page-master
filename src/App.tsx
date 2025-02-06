@@ -1,7 +1,8 @@
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Characteristics from "./components/Characteristics";
-import FindWork from "./components/FindWork";
+import Header from "./Header/Header";
+import Hero from "./components/Hero/Hero";
+import Characteristics from "./components/Section/Characteristics";
+import FindWork from "./components/Section/FindWork";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Characteristics />
       <FindWork />
+      <Footer />
     </>
   );
 }

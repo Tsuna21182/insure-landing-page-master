@@ -1,6 +1,6 @@
 import { useState } from "react";
-import NavBar from "./NavBar";
-import Btn from "./Btn";
+import NavBar from "../components/NavBar";
+import Btn from "../components/Btn";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);

@@ -1,5 +1,5 @@
-import Card from "./Card";
-import Data from "../Data/Db";
+import Card from "../Card";
+import Data from "../../Data/Db";
 
 function Characteristics() {
   return (
