@@ -2,21 +2,28 @@ import Btn from "../Btn";
 
 function Hero() {
   return (
-    <section>
+    <section className="bg-DarkViolet text-VeryLightGray text-center bg-[url(/images/bg-pattern-intro-left-mobile.svg)] bg-no-repeat xl:bg-[url(/images/bg-pattern-intro-left-desktop.svg)]">
       <img
         src="/images/image-intro-mobile.jpg"
         alt="imagen hero"
-        className="w-full"
+        className="w-full xl:absolute xl:w-xl xl:top-60 xl:right-20"
       />
 
-      <div className="bg-DarkViolet p-8 text-VeryLightGray text-center bg-[url(/images/bg-pattern-intro-left-mobile.svg)] bg-no-repeat">
-        <h2 className="font-display text-3xl">Humanizing your insurance.</h2>
-        <p className="font-body my-5">
+      <div className="p-8 mt-10 xl:ml-5 xl:py-30 xl:flex xl:flex-col xl:items-start xl:text-left xl:max-w-[750px] xl:h-[600px]">
+        <h2 className="font-display text-3xl xl:max-w-90 xl:text-5xl">
+          Humanizing your insurance.
+        </h2>
+        <p className="font-body my-5 xl:text-xl">
           Get your life insurance coverage easier and faster. We blend our
           expertise and technology to help you find the plan that´s right for
           you. Ensure you and your loved ones are protected
         </p>
-        <Btn name={"View plans"} />
+        <Btn
+          name={"View plans"}
+          className={
+            "md:text-VeryLightGray md:border-VeryLightGray md:hover:bg-VeryLightGray md:hover:text-DarkViolet"
+          }
+        />
       </div>
     </section>
   );

@@ -6,7 +6,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center p-5">
+    <header className="flex justify-between items-center p-5 ">
       <div>
         <img src="/images/logo.svg" alt="imagen logo" />
       </div>
@@ -25,7 +25,10 @@ function Header() {
       </button>
       <div className="hidden md:flex ">
         <NavBar />
-        <Btn name={"view plans"} />
+        <Btn
+          name={"view plans"}
+          className={"md:hover:bg-VeryDarkViolet md:hover:text-white"}
+        />
       </div>
     </header>
   );

@@ -6,7 +6,12 @@ function FindWork() {
       <h2 className="font-display text-VeryLightGray text-4xl my-5">
         Find out more about how we work
       </h2>
-      <Btn name={"how we work"} />
+      <Btn
+        name={"how we work"}
+        className={
+          "md:text-VeryLightGray md:border-VeryLightGray md:hover:bg-VeryLightGray md:hover:text-DarkViolet"
+        }
+      />
     </section>
   );
 }
