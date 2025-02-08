@@ -1,8 +1,8 @@
 function Company() {
   return (
-    <section className="flex flex-col items-center gap-5 font-body">
+    <section className="flex flex-col items-center gap-5 font-body md:items-baseline">
       <h3 className="uppercase text-GrayishBlue text-xl">our company</h3>
-      <ul className="flex flex-col text-center gap-2">
+      <ul className="flex flex-col text-center gap-2 md:text-left">
         <a
           href="#"
           className="text-lg uppercase text-DarkViolet font-bold md:hover:underline"

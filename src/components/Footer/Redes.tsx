@@ -1,7 +1,10 @@
 function Redes() {
   return (
-    <section className="flex flex-col text-center items-center bg-[url(/images/bg-pattern-footer-mobile.svg)] md:flex-row md:gap-x-60">
-      <img src="/images/logo.svg" alt="imagen logo" className="w-35" />
+    <section className="w-full flex flex-col text-center items-center md:flex-row md:justify-around xl:justify-between xl:px-30 xl:gap-0">
+      <div>
+        <img src="/images/logo.svg" alt="imagen logo" className="w-35" />
+      </div>
+
       <ul className="flex items-center my-10 gap-5">
         <a href="">
           <img

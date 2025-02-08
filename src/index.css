@@ -16,4 +16,8 @@
 
   --font-display: "DM Serif Display", serif; /*headings*/
   --font-body: "Karla", serif; /*body*/
+
+  /* breakpoint */
+
+  --breakpoint-3xl: 120rem;
 }

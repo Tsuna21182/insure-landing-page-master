@@ -6,7 +6,7 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="flex justify-between items-center p-5 ">
+    <header className="flex justify-between items-center p-5 xl:justify-around xl:p-1">
       <div>
         <img src="/images/logo.svg" alt="imagen logo" />
       </div>
